@@ -10,6 +10,7 @@ import expressimg from '../assets/express.png'
 import mongodbimg from '../assets/mongodb.png' 
 import mysqlimg from '../assets/mysql.png' 
 import githubimg from '../assets/github.png' 
+import vscodeimg from '../assets/Visual_Studio_Code.png' 
 const Experience = () => {
     const techs=[
         {
@@ -77,6 +78,12 @@ const Experience = () => {
             src:githubimg,
             title:"Github",
             style:'shadow-white '
+        },
+        {
+            id:11,
+            src:vscodeimg,
+            title:"VS Code",
+            style:'shadow-blue-400 '
         },
     ]
   return (
